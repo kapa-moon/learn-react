@@ -9,7 +9,7 @@
   row-gap: 20px;
   height: 100vh;
   /* background-gradient: linear-gradient(90deg, #ed8686, #ffd468); */
-  background-color: #3451c7;
+  background-color: #ffdfae;
   ;
 }
 
@@ -27,4 +27,12 @@
 
 img {
   width: 100%;
+}
+
+.search {
+  /* border-radius: 10px; */
+  /* width: 50vw; */
+  /* height: 40px; */
+  place-content: center;
+  padding: 10px;
 }

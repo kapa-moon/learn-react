@@ -39,10 +39,12 @@ function App() {
       <div className="eat-container">
         <img src={eat} alt="eat" />
       </div>
-      <Input
+      <input type="text" placeholder="Search" className="search rounded-lg border-2 border-yellow-400 w-4/5" />
+      <button className='w-4/5 h-10 rounded-lg bg-yellow-100 text-orange-900 font-semibold border-red-900 text-center'>Create New Group</button>
+      {/* <Input
         status="warning"
         width="50vw"
-        disabled labelPlaceholder=" Enter Code to Join!" />
+        disabled labelPlaceholder=" Enter Code to Join!" /> */}
       <Button bordered color="gradient" size="md" ghost>New Group</Button>
       <Dropdown>
         <Dropdown.Button flat color="secondary">Dropdown</Dropdown.Button>
