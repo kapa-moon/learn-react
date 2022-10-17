@@ -38,7 +38,7 @@ function App() {
           <Routes>
             <Route path='/' element={<CreateNewTeam />} />
             <Route path='/home' element={<Home />} />
-            <Route path='/group' element={<Group />} />
+            <Route path='/learn-react/group' element={<Group />} />
           </Routes>
         </div>
 
@@ -51,9 +51,9 @@ function App() {
 const Selectors = () => {
   return (
     <div className='flex justify-between h-20 pt-2'>
-      <Selector path='/recommend' page="Recommend"></Selector>
-      <Selector path='/group' page="Group List"></Selector>
-      <Selector path='/go' page="Go!"></Selector>
+      <Selector path='/learn-react/recommend' page="Recommend"></Selector>
+      <Selector path='/learn-react/group' page="Group List"></Selector>
+      <Selector path='/learn-react/go' page="Go!"></Selector>
     </div>
   );
 }
